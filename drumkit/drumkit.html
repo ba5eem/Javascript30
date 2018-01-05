@@ -17,32 +17,69 @@
   <section class="mainsection">
     <div class="side-container">
       <div class="audio-tuner">
-        <div class="audio-kit-tuners" id=""></div>
-        <div class="audio-kit-tuners" id=""></div>
-        <div class="audio-kit-tuners" id=""></div>
-        <div class="audio-kit-tuners" id=""></div>
-        <div class="audio-kit-tuners" id=""></div>
-        <div class="audio-kit-tuners" id=""></div>
+        <div class="audio-kit-tuners" id=""> 
+        </div>
+        <div class="audio-kit-tuners" id="">
+          <p class="toggle-header">MUTE</p>
+          <label class="switch">
+            <input type="checkbox" class="toggle">
+            <span class="slider round" ></span>
+          </label>
+        </div>
+        <div class="audio-kit-tuners" id="">
+          <p class="toggle-header">TUNE</p>
+          <label class="switch">
+            <input type="checkbox" class="toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="audio-kit-tuners" id="">
+          <p class="toggle-header">STEREO</p>
+          <label class="switch">
+            <input type="checkbox" class="toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="audio-kit-tuners" id="">
+          <p class="toggle-header">MONO</p>
+          <label class="switch">
+            <input type="checkbox" class="toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
       </div>
       <div class="audio-buttons">
-        <div class="audio-kit-buttons" id=""></div>
-        <div class="audio-kit-buttons" id=""></div>
-        <div class="audio-kit-buttons" id=""></div>
-        <div class="audio-kit-buttons" id=""></div>
-        <div class="audio-kit-buttons" id=""></div>
-        <div class="audio-kit-buttons" id=""></div>
+        <div class="audio-kit-buttons" id="rewind">
+          <img src="http://pluspng.com/img-png/previous-button-png-arrow-back-basic-button-control-media-player-previous-512.png" alt="" class="kit-images">
+        </div>
+        <div class="audio-kit-buttons" id="play">
+          <img src="https://cdn3.iconfinder.com/data/icons/technology-internet-and-communication/100/technology_internet_communications20-512.png" alt="" class="kit-images">
+        </div>
+        <div class="audio-kit-buttons" id="forward">
+          <img src="https://cdn3.iconfinder.com/data/icons/line/36/fastforward-512.png" alt="" class="kit-images">
+        </div>
+        <div class="audio-kit-buttons" id="pause">
+          <img src="https://cdn3.iconfinder.com/data/icons/line/36/pause-512.png" alt="" class="kit-images">
+        </div>
+        <div class="audio-kit-buttons" id="record">
+          <img src="https://openclipart.org/image/2400px/svg_to_png/212387/rodentia-icons_media-record.png" alt="" class="kit-images-record">
+        </div>
+        <div class="audio-kit-buttons" id="stop">
+          <img src="./assets/multimedia.png" alt="" class="kit-images">
+        </div>
       </div>
     </div>
     <div class="board-container">
-      <div class="audio-board" id="_1" data-key="00"></div>
-      <div class="audio-board" id="_2" data-key="00"></div>
-      <div class="audio-board" id="_3" data-key="00"></div>
-      <div class="audio-board" id="_4" data-key="00"></div>
-      <div class="audio-board" id="_5" data-key="00"></div>
-      <div class="audio-board" id="_6" data-key="00"></div>
-      <div class="audio-board" id="_7" data-key="00"></div>
-      <div class="audio-board" id="_8" data-key="00"></div>
-      <div class="audio-board" id="_9" data-key="00"></div>   
+      <div class="audio-board" id="_1" data-key="65"></div>
+      <div class="audio-board" id="_2" data-key="83"></div>
+      <div class="audio-board" id="_3" data-key="68"></div>
+      <div class="audio-board" id="_4" data-key="70"></div>
+      <div class="audio-board" id="_5" data-key="71"></div>
+      <div class="audio-board" id="_6" data-key="72"></div>
+      <div class="audio-board" id="_7" data-key="74"></div>
+      <div class="audio-board" id="_8" data-key="75"></div>
+      <div class="audio-board" id="_9" data-key="76"></div>   
     </div>
 
 
@@ -55,8 +92,15 @@
     <a href="" class="link">LINK</a>
   </footer>
   
-
-
+  <audio id="_1" data-key="65" src='./assets/snare.mp3' class="audio-key"></audio>
+  <audio id="_2" data-key="83" src='./assets/hat.wav' class="audio-key"></audio>
+  <audio id="_3" data-key="68" src='./assets/clap.wav' class="audio-key"></audio>
+  <audio id="_4" data-key="70" src='./assets/fx.wav' class="audio-key"></audio>
+  <audio id="_5" data-key="71" src='./assets/highhat.wav' class="audio-key"></audio>
+  <audio id="_6" data-key="72" src='./assets/kick.wav' class="audio-key"></audio>
+  <audio id="_7" data-key="74" src='./assets/snare.wav' class="audio-key"></audio>
+  <audio id="_8" data-key="75" src='./assets/tom.wav' class="audio-key"></audio>
+  <audio id="_9" data-key="76" src='./assets/snare.mp3' class="audio-key"></audio>
 
 
 <script src="drumkit.js"></script>  
