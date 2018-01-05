@@ -5,6 +5,7 @@ window.addEventListener('keydown', function(e){
   if(!audio) return;
   audio.currentTime = 0;
   audio.play();
+  key.classList.add('playing');
 })
 
 window.addEventListener('click', function(e){
@@ -29,6 +30,14 @@ for(var i = 0; i < kitbuttons.length; i++){
   kitbuttons[i].addEventListener('click', function(){
   console.log(this.id)
   })
+}
+
+const buttons = document.getElementsByClassName("audio-board");
+
+for(var i = 0; i < buttons.length; i++){
+  buttons[i].addEventListener('click', function(){
+    console.log(this.id);
+  });
 }
 
 
