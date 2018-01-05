@@ -1,0 +1,38 @@
+body{
+  background: linear-gradient(cornflowerblue,lightgreen);
+  margin: 10;
+  padding: 0;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.header{
+  font-size: 4rem;
+  margin: auto;
+  margin-left: 7rem;  
+}
+
+.headerstyle{
+  font-style: italic;
+  font-size: 3rem;
+}
+
+.websites{
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  margin-left: 1rem;
+  
+}
+
+.website-images{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.website-style{
+  font-style: italic;
+  font-size: 1rem;
+}
