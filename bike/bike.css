@@ -1,0 +1,129 @@
+    body {
+     /* background:#018DED url(https://i.pinimg.com/originals/45/96/7b/45967bf36681e41ceca828782605dfd3.jpg);*/
+      margin: 0;
+      padding: 0;
+    }
+
+    .seat-pole{
+      position: absolute;
+      transform-origin: 0%;
+      transform: rotate(-88deg);
+      width: 1rem;
+      border: 0.2rem solid black;
+      left: 229px;
+      top: 156px;
+    }
+
+    .seat{
+      position: absolute;
+      transform-origin: 0%;
+      width: 2rem;
+      border: 0.2rem solid black;
+      left: 213px;
+      top: 137px;
+    }
+
+    .handlebars{
+      position: absolute;
+      transform-origin: 0%;
+      transform: rotate(-47deg);
+      width: 2rem;
+      border: 0.2rem solid black;
+      left: 372px;
+      top: 132px;
+    }
+
+    .top-frame{
+      position: absolute;
+      width: 10.5rem;
+      border: 0.2rem solid black;
+      left: 225px;
+      top: 151px;
+    }
+
+    .right-frame{
+      position: absolute;
+      transform-origin: 0%;
+      transform: rotate(-47deg);
+      width: 9rem;
+      border: 0.2rem solid black;
+      left: 299px;
+      top: 260px;
+    }
+
+    .front-frame{
+      position: absolute;
+      transform-origin: 0%;
+      transform: rotate(-110deg);
+      width: 9rem;
+      border: 0.2rem solid black;
+      left: 439px;
+      top: 258px;
+    }
+    .seat-frame{
+      position: absolute;
+      transform-origin: 0%;
+      transform: rotate(-67deg);
+      width: 7rem;
+      border: 0.2rem solid black;
+      left: 186px;
+      top: 258px;
+    }
+
+    .bottom-frame{
+      position: absolute;
+      width: 7rem;
+      border: 0.2rem solid black;
+      left: 182px;
+      top: 259px;
+    }
+
+    .left{
+      position: absolute;
+      left: 100px;
+      top: 20px;
+    }
+    .right{
+      position: absolute;
+      left: 350px;
+      top: 20px;
+    }
+
+
+    .left{
+      margin-top: 10rem;
+      transform-origin: 50%;
+      transition: all 6s;
+      width: 4rem;
+      height: 4rem;
+      border-top:20px solid #595959;
+      border-bottom:20px solid #595959;
+      border-right:20px solid #595959;
+      border-left:20px solid #383838;
+      border-radius:50%;
+      padding:2rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .right{
+      margin-top: 10rem;
+      transform-origin: 50%;
+      transition: all 6s;
+      width: 4rem;
+      height: 4rem;
+      border-top:20px solid #595959;
+      border-bottom:20px solid #595959;
+      border-right:20px solid #595959;
+      border-left:20px solid #383838;
+      border-radius:50%;
+      padding:2rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+    }
